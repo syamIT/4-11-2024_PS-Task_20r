@@ -5,7 +5,7 @@ function removeDuplicates(arr) {
   let res = [];
   arr.sort((a, b) => a - b);
   for (let i = 0; i < arr.length; i++) {
-    if (i == 0 || arr[i] !== arr[i - 1]) {
+    if (i == 0 || arr[i] !== arr[i -1]) {
       res.push(arr[i]);
     }
   }
